@@ -1,7 +1,13 @@
 spring:
   application:
     name: usuario-service
+  profiles:
+    active: native
   cloud:
     config:
+      name: config-server
       enabled: true
       uri: http://localhost:8081
+logging:
+  level:
+    web: DEBUG
