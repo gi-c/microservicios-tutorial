@@ -1,6 +1,6 @@
 spring:
   application:
-    name: moto-service
+    name: moto-servicio
   cloud:
     config:
       name: config-server
