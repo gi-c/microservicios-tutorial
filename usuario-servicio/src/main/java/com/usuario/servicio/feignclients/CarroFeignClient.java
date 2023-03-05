@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 
-@FeignClient(name = "carro-service", url = "http://localhost:8002")
+@FeignClient(name = "carro-service")
 public interface CarroFeignClient {
 	
 	@PostMapping("/carro")
