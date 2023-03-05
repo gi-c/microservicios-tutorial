@@ -24,7 +24,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
-	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '4.0.1'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	
 }
 
